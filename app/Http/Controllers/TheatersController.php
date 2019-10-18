@@ -12,4 +12,7 @@ class TheatersController extends Controller
         $theater = \App\Theater::all();
         return $theater;
     }
+
 }
+
+
